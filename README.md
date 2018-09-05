@@ -1,6 +1,6 @@
 ### Keras
 
-The minimum stack to get started playing with keras and tensorflow in a Jupyter Notebook.
+The minimum stack to get started playing with keras and tensorflow as a backend in a Jupyter Notebook.
 
 ### Mount the image and run the container
 
