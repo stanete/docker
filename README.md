@@ -1,4 +1,4 @@
-### Minimum tensorflow stack
+## Minimum tensorflow stack 🐳
 
 The minimum stack to start playing with tensorflow in a Jupyter Notebook... no fancy stuff 😅.
 
