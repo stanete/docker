@@ -1,4 +1,4 @@
-## Minimum tensorflow stack 🐳
+## Docker image with the minimum tensorflow stack 🐳
 
 The minimum stack to start playing with tensorflow in a Jupyter Notebook... no fancy stuff 😅.
 
