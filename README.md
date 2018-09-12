@@ -1,23 +1,28 @@
-## Docker image with the minimum tensorflow stack 🐳
+## Docker images with the minimum for scikit-learn or tensorflow stack 🐳
 
-The minimum stack to start playing with tensorflow in a Jupyter Notebook... no fancy stuff 😅.
+The minimum stack to start playing with scikit-learn or tensorflow in a Jupyter Notebook... no fancy stuff 😅.
 
-### Mount the image
+### Start playing with the images
+
+Every image has its own Makefile with commands for building the image and running the container.
 
 ```
 make build
-```
-
-### Run the container
-
-```
 make run
 ```
 
 ### Or from Docker Hub
 
+For tensorflow:
+
 ```
 docker run -p 8888:8888 -v $(pwd):/src stanete/tensorflow
+```
+
+Or from scikit-learn:
+
+```
+docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
 ```
 
 ### Disclaimer
