@@ -6,7 +6,7 @@ VOLUME /src
 WORKDIR /src
 
 RUN pip install notebook matplotlib numpy \
-    pandas tensorflow
+	pillow keras tensorflow
 
 EXPOSE 8888
 
